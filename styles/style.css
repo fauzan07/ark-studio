@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    font-family: 'Alata', sans-serif;   
+}
+/*--------section transparent_nav start---------*/
+.transparent_nav {
+  overflow: hidden;
+
+  background-image: url("../img/billboard.jpg");
+
+  min-height: 580px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative; 
+  }
+
+.nav_bar{
+  overflow: hidden;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+#nav_list {
+  float: right;
+  }
+
+#nav_list a {
+  color: #000;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  }
+  
+#nav_list a:hover {
+  color: blue;
+}
+  
+.transparent_nav li{
+  display: inline-block;
+  margin: 10px;
+}
+
+#nav_logo{
+  width: 80px;
+  margin-left: 60px;
+}
+/*--------section transparent_nav ends---------*/
+
+/*--------section cta start---------*/
+
+.cta{
+  background-color:rgba(255, 255, 255, 0.7);
+  margin-top: 500px;
+  padding: 10px;
+}
+
+#cta_text, #cta_link{
+  display: inline-block;
+}
+
+.cta a{
+  color: #fff;
+  text-align: center;
+  padding: 12px 38px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  word-spacing: 2px;
+}
+
+p#cta_text{
+  margin-left: 8px;
+  word-spacing: 2px;
+}
+
+#cta_link {
+  background-color: #25c4ec;
+  border-color: #25c4ec;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 800px;
+}
+
+#cta_link:hover {
+  background-color: #2530c7;
+}
+/*--------section cta ends---------*/
+
+/*--------section service_wrapper start---------*/
+
+.service, .wrapper{
+  margin: auto;
+  width: 60%;
+}
+
+h1.service_title{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px; 
+  margin-top:80px;
+}
+
+ul.service_list{
+  column-count: 3;
+  column-gap: 10px;
+  list-style-type: none;
+}
+
+.service, .wrapper li{
+  display: block;
+  text-align: center;
+}
+
+/*--------section service_wrapper ends---------*
+
+/*--------section recent_work start---------*/
+
+.recent_work{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 50px;
+}
+
+.work_img{
+  width: 280px;
+  transition: transform .1s;
+}
+
+.work_img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+/*--------section recent_work ends---------*/
+
+/*--------section testimonials start---------*/
+
+.testimonials, .wrapper{
+  margin: auto;
+  width: 70%;
+}
+
+h1.testimonials_title{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px; 
+  margin-top:80px;
+  text-transform: uppercase;
+}
+
+ul.testimonials_list {
+  column-count: 3;
+  column-gap: 15px;
+  list-style-type: none;
+}
+
+.testimonials, .wrapper li{
+  display: block;
+  text-align: center;
+}
+
+.testimonials_img{
+  border-radius: 50%;
+}
+
+span.tspan{
+  font-size: 13px;
+  font-weight: none;
+  color: gray;
+}
+
+p.t_text{
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+
+/*--------section testimonials ends---------*/
+
+/*--------section footer start---------*/
+
+.footer_widget{
+  background-color: #020203d2; 
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #fff;
+  padding: 80px 180px;
+} 
+
+.footer_widget > div{
+  width: 190px;
+  margin: 40px;
+}
+
+.footer_widget li{
+  list-style-type: none;
+  line-height: 35px;
+
+}
+
+.footer_widget a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.social_icons li{
+  display: inline;
+  font-size: 30px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.social_icons, .facebook{
+padding-left: 0px;
+}
+
+.social_icons a:hover{
+ color: #25c4ec;
+}
+
+.copy_rights{
+  background-color: #020203d2; 
+  display: block;
+  overflow: hidden;
+}
+.rights{
+  text-align: center;
+  color: #fff;
+}
+
+/*--------section footer ends---------*/
+
+
+
