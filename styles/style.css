@@ -83,7 +83,7 @@ p#cta_text{
   display: inline-block;
   text-align: center;
   cursor: pointer;
-  margin-left: 800px;
+  margin-left: 750px;
 }
 
 #cta_link:hover {
@@ -93,7 +93,7 @@ p#cta_text{
 
 /*--------section service_wrapper start---------*/
 
-.service, .wrapper{
+.services, .wrapper{
   margin: auto;
   width: 60%;
 }
@@ -111,7 +111,7 @@ ul.service_list{
   list-style-type: none;
 }
 
-.service, .wrapper li{
+.services, .wrapper li{
   display: block;
   text-align: center;
 }
