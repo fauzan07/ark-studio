@@ -1,4 +1,6 @@
-﻿## Assignment: ARK Studio
+https://fauzan07.github.io/ark-studio/
+
+## Assignment: ARK Studio
 
 ### Problem Statement
 
